@@ -225,6 +225,10 @@ const Pokedex: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             {/* Mantener los elementos decorativos existentes */}
             <div id="yellowBox1"></div>
             <div id="yellowBox2"></div>
+            <div className="input">
+              <p> BÚSQUEDA:</p>
+              <input className="trueInput" type="text" name="search" autoComplete="off" placeholder="Nombre o tipo de Pokemon" />
+            </div>
           </div>
           </div>    
       </IonContent>
